@@ -7,9 +7,8 @@ export default {
       name: "iluvcoffee",
       region: "us-east-1",
       profile:
-        input.stage === "production"
-          ? "artlyticalmedia-production"
-          : "artlyticalmedia-dev",
+        // Replace the below with your actual profiles
+        input.stage === "production" ? "PRODUCTION_PROFILE" : "DEV_PROFILE",
     };
   },
   stacks(app) {
